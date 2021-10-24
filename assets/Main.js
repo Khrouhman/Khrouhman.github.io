@@ -20,7 +20,7 @@ function toAlphabet(num){
 		alert(num);
 		return -1;
 	}
-	return String.fromCharCode(num + 64);
+	return String.fromCharCode(num + 96);
 }
 
 //Random number 1-26
@@ -33,8 +33,10 @@ function randomName() {
 	var word = ""
 	for(let i = 0; i < 7; i++){
 		var letter = returnRandLet();
-		
-		if(i == 1 || i == 2 || i == 5) {	
+		if(i == 0) {
+			word+= toAlphabet(letter).toUpperCase();
+		}
+		else if(i == 1 || i == 2 || i == 5) {	
 			switch(letter) {
 				case 1:
 				case 5:
