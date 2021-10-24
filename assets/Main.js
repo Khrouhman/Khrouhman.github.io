@@ -2,25 +2,14 @@
 //Use button 'NameGen' to create new random name
 let btn1 = document.getElementById('NameGen');
 let head = document.getElementById("headTitle").innerHTML
-let numClicks = 0;
+//let numClicks = 0;
 btn1.innerHTML = "Don't click" ;
 btn1.onclick = function() {
 	
-	if(numClicks > 21) { 
-		close();
-	}
-	else if(numClicks > 20) { 
-		btn1.innerHTML = "Error: Too many names - Shutting down"; 
-	}
-	else if(numClicks > 10) {
-		btn1.innerHTML = "Stop!I am going to run out of names";
-	}
-	else {
-		btn1.innerHTML = "Nah, I want a different name";
-	}
+	btn1.innerHTML = "Nah, I want a different name";
 	head = "Random Name: ";
 	document.getElementById("Random Name").innerHTML = randomName();
-	numClicks++;
+	//numClicks++;
 	
 }
 document.body.appendChild(btn1);
