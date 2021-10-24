@@ -1,9 +1,0 @@
-h2, h3{
-	text-align: center;
-}
-
-#NameGen {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-}
