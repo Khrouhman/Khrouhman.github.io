@@ -1,4 +1,8 @@
+@font-face {
 
+	font-family: "Squared";
+	src:  url("font/FROSTBITE-Narrow.ttf");
+}
 
 h2, h3{
 	text-align: center;
@@ -7,7 +11,8 @@ h2, h3{
 body {
 	background: black;
 	color:  limegreen;
-	/* font-family: "Minecraft" */
+	font-family: "Squared";
+	letter-spacing: 1px;
 }
 
 #NameGen {
@@ -15,3 +20,4 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 }
+
