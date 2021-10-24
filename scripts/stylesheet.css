@@ -1,5 +1,13 @@
+
+
 h2, h3{
 	text-align: center;
+}
+
+body {
+	background: black;
+	color:  limegreen;
+	font-family: "Minecraft"
 }
 
 #NameGen {
