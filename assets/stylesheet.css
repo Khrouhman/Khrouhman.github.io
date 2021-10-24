@@ -4,9 +4,13 @@
 	src:  url("font/FROSTBITE-Narrow.ttf");
 }
 
-h2, h3{
+h2{
 	text-align: center;
-	font-size: 4vw;
+	font-size: 5vw;
+}
+
+h3{
+	text-align: center;
 }
 
 body {
@@ -21,6 +25,6 @@ body {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	font-size: 4vw;
+	font-size: 3vw;
 }
 
