@@ -30,7 +30,7 @@ body {
 #NameGen {
 	position: absolute;
 	left: 50%;
-	margin-top: 20%;
+	margin-top: 5%;
 	transform: translateX(-50%);
 	border-width: 5px;
 	border-color: limegreen;
