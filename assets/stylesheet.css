@@ -1,21 +1,22 @@
+/* Custom font */
 @font-face {
 
 	font-family: "Squared";
 	src:  url("font/Minecraft.otf");
 }
 
+/* Styles for h2 and h3 lines */
 h2{
 	text-align: center;
-	font-size: 5vw;
-	-webkit-text-stroke : 1px green;
-
+	margin-top: 15%;
+	font-size: 6vw;
 }
-
 h3{
 	text-align: center;
-	font-weight: 100;
+	font-size: 5vw;
 }
 
+/* Style for body  */
 body {
 	background: black; 
 	color:  limegreen;
@@ -25,10 +26,14 @@ body {
 	letter-spacing: 1px;
 }
 
+/* Style for nameGen button */
 #NameGen {
 	position: absolute;
 	left: 50%;
+	margin-top: 20%;
 	transform: translateX(-50%);
+	border-width: 5px;
+	border-color: limegreen;
 	border-radius: 10px;
 	background: limegreen;
 	color: #FFFFA0;
