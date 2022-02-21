@@ -44,14 +44,16 @@ function randomName() {
 				break;
 			}
 		}
-		//if constant add, if constant go back one
+		//if constant add, if vowel go back one
 		else {
 			switch(letter) {
 				case 1:
 				case 5:
 				case 9:
 				case 15:
+				case 17:
 				case 21:
+				case 24:
 				i--;
 				break;
 				default:
