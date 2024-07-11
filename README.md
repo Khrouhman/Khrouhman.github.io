@@ -6,4 +6,4 @@ Website that creates a very simple name using a pattern
 
 Consonant, vowel, vowel, consonant, consonant, vowel, consonant 
 
-[a link](https://khrouhman.github.io/)
+https://khrouhman.github.io/
